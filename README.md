@@ -32,6 +32,6 @@ After you have started the VM,
 
 ```shell
 vagrant ssh
-ipython notebook --ip='*'
+sudo supervisorctl start notebook
 ```
 

@@ -13,11 +13,7 @@ vagrant up
 Starting the Notebook Server
 ============================
 
-```
+```shell
 vagrant ssh
 ipython notebook --ip='*'
-```shell
-
-To start the notebook:
-
 ```

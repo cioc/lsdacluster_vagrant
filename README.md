@@ -16,6 +16,17 @@ And now clone lsdacluster_vagrant
 git clone https://github.com/cioc/lsdacluster_vagrant.git
 ```
 
+Now edit bootstrap.sh to include your secret key and access key.
+
+i.e. in lsdacluster_vagrant/bootstrap.sh :
+
+```bash
+# change these lines to the values you were provided
+export AWS_SECRET_KEY=<secret key here>
+export AWS_ACCESS_KEY=<access key here>
+```
+
+
 Starting the VM
 ===============
 
